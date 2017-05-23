@@ -13,6 +13,9 @@
 		AC159B5A1ED34B6C0074D2FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC159B571ED34B6C0074D2FA /* AppDelegate.m */; };
 		AC159B5E1ED34C220074D2FA /* FVMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC159B5D1ED34C220074D2FA /* FVMasterViewController.m */; };
 		AC159B621ED34CAD0074D2FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC159B611ED34CAD0074D2FA /* Images.xcassets */; };
+		ACE26E431ED43778008E4788 /* FVProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE26E421ED43778008E4788 /* FVProduct.m */; };
+		ACE26E491ED43A9E008E4788 /* FVProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE26E481ED43A9E008E4788 /* FVProductCell.m */; };
+		ACE26E4C1ED43C87008E4788 /* FVDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE26E4B1ED43C87008E4788 /* FVDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		AC159B5C1ED34C220074D2FA /* FVMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVMasterViewController.h; sourceTree = "<group>"; };
 		AC159B5D1ED34C220074D2FA /* FVMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVMasterViewController.m; sourceTree = "<group>"; };
 		AC159B611ED34CAD0074D2FA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ACE26E411ED43778008E4788 /* FVProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVProduct.h; sourceTree = "<group>"; };
+		ACE26E421ED43778008E4788 /* FVProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVProduct.m; sourceTree = "<group>"; };
+		ACE26E471ED43A9E008E4788 /* FVProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVProductCell.h; sourceTree = "<group>"; };
+		ACE26E481ED43A9E008E4788 /* FVProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVProductCell.m; sourceTree = "<group>"; };
+		ACE26E4A1ED43C87008E4788 /* FVDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVDetailViewController.h; sourceTree = "<group>"; };
+		ACE26E4B1ED43C87008E4788 /* FVDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +92,12 @@
 				AC159B571ED34B6C0074D2FA /* AppDelegate.m */,
 				AC159B5C1ED34C220074D2FA /* FVMasterViewController.h */,
 				AC159B5D1ED34C220074D2FA /* FVMasterViewController.m */,
+				ACE26E411ED43778008E4788 /* FVProduct.h */,
+				ACE26E421ED43778008E4788 /* FVProduct.m */,
+				ACE26E471ED43A9E008E4788 /* FVProductCell.h */,
+				ACE26E481ED43A9E008E4788 /* FVProductCell.m */,
+				ACE26E4A1ED43C87008E4788 /* FVDetailViewController.h */,
+				ACE26E4B1ED43C87008E4788 /* FVDetailViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -160,8 +175,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC159B5E1ED34C220074D2FA /* FVMasterViewController.m in Sources */,
+				ACE26E4C1ED43C87008E4788 /* FVDetailViewController.m in Sources */,
 				AC159B5A1ED34B6C0074D2FA /* AppDelegate.m in Sources */,
 				AC159B401ED34ADE0074D2FA /* main.m in Sources */,
+				ACE26E491ED43A9E008E4788 /* FVProductCell.m in Sources */,
+				ACE26E431ED43778008E4788 /* FVProduct.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
