@@ -16,6 +16,9 @@
 		ACE26E431ED43778008E4788 /* FVProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE26E421ED43778008E4788 /* FVProduct.m */; };
 		ACE26E491ED43A9E008E4788 /* FVProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE26E481ED43A9E008E4788 /* FVProductCell.m */; };
 		ACE26E4C1ED43C87008E4788 /* FVDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE26E4B1ED43C87008E4788 /* FVDetailViewController.m */; };
+		ACFA7F4A1ED5A79000FD7DA4 /* FVZoomTransitioner.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFA7F491ED5A79000FD7DA4 /* FVZoomTransitioner.m */; };
+		ACFA7F4D1ED5AA3300FD7DA4 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFA7F4C1ED5AA3300FD7DA4 /* UIView+Extension.m */; };
+		ACFA7F501ED5AC1300FD7DA4 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFA7F4F1ED5AC1300FD7DA4 /* UIImage+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,12 @@
 		ACE26E481ED43A9E008E4788 /* FVProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVProductCell.m; sourceTree = "<group>"; };
 		ACE26E4A1ED43C87008E4788 /* FVDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVDetailViewController.h; sourceTree = "<group>"; };
 		ACE26E4B1ED43C87008E4788 /* FVDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVDetailViewController.m; sourceTree = "<group>"; };
+		ACFA7F481ED5A79000FD7DA4 /* FVZoomTransitioner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVZoomTransitioner.h; sourceTree = "<group>"; };
+		ACFA7F491ED5A79000FD7DA4 /* FVZoomTransitioner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVZoomTransitioner.m; sourceTree = "<group>"; };
+		ACFA7F4B1ED5AA3300FD7DA4 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		ACFA7F4C1ED5AA3300FD7DA4 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		ACFA7F4E1ED5AC1300FD7DA4 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		ACFA7F4F1ED5AC1300FD7DA4 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +76,7 @@
 		AC159B3D1ED34ADE0074D2FA /* FVZoomTransitionDemo */ = {
 			isa = PBXGroup;
 			children = (
+				ACE26E4D1ED43EA3008E4788 /* FVZoomTransition */,
 				AC159B551ED34B6C0074D2FA /* Classes */,
 				AC159B3E1ED34ADE0074D2FA /* Supporting Files */,
 				AC159B611ED34CAD0074D2FA /* Images.xcassets */,
@@ -98,8 +108,21 @@
 				ACE26E481ED43A9E008E4788 /* FVProductCell.m */,
 				ACE26E4A1ED43C87008E4788 /* FVDetailViewController.h */,
 				ACE26E4B1ED43C87008E4788 /* FVDetailViewController.m */,
+				ACFA7F4B1ED5AA3300FD7DA4 /* UIView+Extension.h */,
+				ACFA7F4C1ED5AA3300FD7DA4 /* UIView+Extension.m */,
+				ACFA7F4E1ED5AC1300FD7DA4 /* UIImage+Extension.h */,
+				ACFA7F4F1ED5AC1300FD7DA4 /* UIImage+Extension.m */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		ACE26E4D1ED43EA3008E4788 /* FVZoomTransition */ = {
+			isa = PBXGroup;
+			children = (
+				ACFA7F481ED5A79000FD7DA4 /* FVZoomTransitioner.h */,
+				ACFA7F491ED5A79000FD7DA4 /* FVZoomTransitioner.m */,
+			);
+			path = FVZoomTransition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,10 +198,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC159B5E1ED34C220074D2FA /* FVMasterViewController.m in Sources */,
+				ACFA7F4A1ED5A79000FD7DA4 /* FVZoomTransitioner.m in Sources */,
 				ACE26E4C1ED43C87008E4788 /* FVDetailViewController.m in Sources */,
 				AC159B5A1ED34B6C0074D2FA /* AppDelegate.m in Sources */,
 				AC159B401ED34ADE0074D2FA /* main.m in Sources */,
 				ACE26E491ED43A9E008E4788 /* FVProductCell.m in Sources */,
+				ACFA7F501ED5AC1300FD7DA4 /* UIImage+Extension.m in Sources */,
+				ACFA7F4D1ED5AA3300FD7DA4 /* UIView+Extension.m in Sources */,
 				ACE26E431ED43778008E4788 /* FVProduct.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

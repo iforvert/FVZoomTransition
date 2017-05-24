@@ -57,4 +57,22 @@
     _scrollView.contentSize = CGSizeMake(_scrollView.frame.size.width, _descriptionLabel.frame.origin.y + _descriptionLabel.frame.size.height + 14.0);
 }
 
+- (void)setCoverCard:(UIView *)view
+{
+    if (view)
+    {
+//        BukaOpenCardTranNavigationDelegate *navidelegate = [BukaOpenCardTranNavigationDelegate new];
+//        navidelegate.transitCard = view;
+//        _cardNaviDelegate = navidelegate;
+//        self.bk_navigationDelegate = _cardNaviDelegate;
+        //        self.bk_swipeBackDisabled = YES;
+    }
+    else
+    {
+//        _cardNaviDelegate = nil;
+//        self.bk_navigationDelegate = nil;
+        //        self.bk_swipeBackDisabled = NO;
+    }
+}
+
 @end

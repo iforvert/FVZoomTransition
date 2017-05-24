@@ -69,12 +69,14 @@ static NSString * const reuseIdentifier = @"Cell";
     return cell;
 }
 
-- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
+
+- (BOOL)collectionView:(UICollectionView *)collectionView shouldSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
     self.selectedCell = (FVProductCell *)[collectionView cellForItemAtIndexPath:indexPath];
-    
     FVDetailViewController *detailController = [[FVDetailViewController alloc] initWithProduct:_products[indexPath.row]];
+    
     [self.navigationController pushViewController:detailController animated:YES];
+    return YES;
 }
 
 #pragma mark - UICollectionViewDelegateFlowLayout Methods
