@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC046ECF1F28C0CA00EDFD9D /* FVZoomTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AC046ECE1F28C0CA00EDFD9D /* FVZoomTransition.m */; };
 		AC159B401ED34ADE0074D2FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC159B3F1ED34ADE0074D2FA /* main.m */; };
 		AC159B491ED34ADE0074D2FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC159B471ED34ADE0074D2FA /* Main.storyboard */; };
 		AC159B4E1ED34ADE0074D2FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC159B4C1ED34ADE0074D2FA /* LaunchScreen.storyboard */; };
 		AC159B621ED34CAD0074D2FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC159B611ED34CAD0074D2FA /* Images.xcassets */; };
 		AC2740281F28498F0099CF33 /* FVAppdelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2740271F28498F0099CF33 /* FVAppdelegate.m */; };
+		AC27402B1F284BB00099CF33 /* FVGoodsController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC27402A1F284BB00099CF33 /* FVGoodsController.m */; };
+		AC27402E1F286B8F0099CF33 /* FVGoodsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC27402D1F286B8F0099CF33 /* FVGoodsDetailViewController.m */; };
+		AC2740391F2876530099CF33 /* FVGoodsInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2740381F2876530099CF33 /* FVGoodsInfoCell.m */; };
+		ACB047D41F28F8ED00ECF3CE /* UIView+Sinp.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB047D31F28F8ED00ECF3CE /* UIView+Sinp.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC046ECD1F28C0CA00EDFD9D /* FVZoomTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVZoomTransition.h; sourceTree = "<group>"; };
+		AC046ECE1F28C0CA00EDFD9D /* FVZoomTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVZoomTransition.m; sourceTree = "<group>"; };
+		AC046ED01F28C1B800EDFD9D /* FVZoomTransitionProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FVZoomTransitionProtocol.h; sourceTree = "<group>"; };
 		AC159B3B1ED34ADE0074D2FA /* FVZoomTransitionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FVZoomTransitionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC159B3F1ED34ADE0074D2FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AC159B481ED34ADE0074D2FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -23,6 +31,14 @@
 		AC159B611ED34CAD0074D2FA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AC2740261F28498F0099CF33 /* FVAppdelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVAppdelegate.h; sourceTree = "<group>"; };
 		AC2740271F28498F0099CF33 /* FVAppdelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVAppdelegate.m; sourceTree = "<group>"; };
+		AC2740291F284BB00099CF33 /* FVGoodsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVGoodsController.h; sourceTree = "<group>"; };
+		AC27402A1F284BB00099CF33 /* FVGoodsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVGoodsController.m; sourceTree = "<group>"; };
+		AC27402C1F286B8F0099CF33 /* FVGoodsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVGoodsDetailViewController.h; sourceTree = "<group>"; };
+		AC27402D1F286B8F0099CF33 /* FVGoodsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVGoodsDetailViewController.m; sourceTree = "<group>"; };
+		AC2740371F2876530099CF33 /* FVGoodsInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVGoodsInfoCell.h; sourceTree = "<group>"; };
+		AC2740381F2876530099CF33 /* FVGoodsInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVGoodsInfoCell.m; sourceTree = "<group>"; };
+		ACB047D21F28F8ED00ECF3CE /* UIView+Sinp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Sinp.h"; sourceTree = "<group>"; };
+		ACB047D31F28F8ED00ECF3CE /* UIView+Sinp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Sinp.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +52,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC046ECC1F28C05500EDFD9D /* FVZoomTransition */ = {
+			isa = PBXGroup;
+			children = (
+				AC046ECD1F28C0CA00EDFD9D /* FVZoomTransition.h */,
+				AC046ECE1F28C0CA00EDFD9D /* FVZoomTransition.m */,
+				ACB047D21F28F8ED00ECF3CE /* UIView+Sinp.h */,
+				ACB047D31F28F8ED00ECF3CE /* UIView+Sinp.m */,
+				AC046ED01F28C1B800EDFD9D /* FVZoomTransitionProtocol.h */,
+			);
+			path = FVZoomTransition;
+			sourceTree = "<group>";
+		};
 		AC159B321ED34ADE0074D2FA = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +83,7 @@
 		AC159B3D1ED34ADE0074D2FA /* FVZoomTransitionDemo */ = {
 			isa = PBXGroup;
 			children = (
+				AC046ECC1F28C05500EDFD9D /* FVZoomTransition */,
 				AC2740251F28492F0099CF33 /* class */,
 				AC159B3E1ED34ADE0074D2FA /* Supporting Files */,
 				AC159B611ED34CAD0074D2FA /* Images.xcassets */,
@@ -78,6 +107,12 @@
 			children = (
 				AC2740261F28498F0099CF33 /* FVAppdelegate.h */,
 				AC2740271F28498F0099CF33 /* FVAppdelegate.m */,
+				AC2740291F284BB00099CF33 /* FVGoodsController.h */,
+				AC27402A1F284BB00099CF33 /* FVGoodsController.m */,
+				AC2740371F2876530099CF33 /* FVGoodsInfoCell.h */,
+				AC2740381F2876530099CF33 /* FVGoodsInfoCell.m */,
+				AC27402C1F286B8F0099CF33 /* FVGoodsDetailViewController.h */,
+				AC27402D1F286B8F0099CF33 /* FVGoodsDetailViewController.m */,
 			);
 			path = class;
 			sourceTree = "<group>";
@@ -154,7 +189,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACB047D41F28F8ED00ECF3CE /* UIView+Sinp.m in Sources */,
+				AC046ECF1F28C0CA00EDFD9D /* FVZoomTransition.m in Sources */,
 				AC2740281F28498F0099CF33 /* FVAppdelegate.m in Sources */,
+				AC27402B1F284BB00099CF33 /* FVGoodsController.m in Sources */,
+				AC27402E1F286B8F0099CF33 /* FVGoodsDetailViewController.m in Sources */,
+				AC2740391F2876530099CF33 /* FVGoodsInfoCell.m in Sources */,
 				AC159B401ED34ADE0074D2FA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

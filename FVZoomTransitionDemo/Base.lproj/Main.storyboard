@@ -9,29 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="Bde-se-zWJ"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1148" y="-582"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="OMM-3r-D3M">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ASZ-ug-Rpf" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="ASZ-ug-Rpf" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="0Lj-f0-uMF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -39,12 +20,30 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="tX2-xp-81A"/>
+                        <segue destination="3Cm-q0-NLb" kind="relationship" relationship="rootViewController" id="kgA-5S-I77"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OOi-FG-qBP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="104.8" y="-581.55922038980509"/>
+        </scene>
+        <!--Goods Controller-->
+        <scene sceneID="5kw-SO-tte">
+            <objects>
+                <viewController id="3Cm-q0-NLb" customClass="FVGoodsController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sbx-US-XN9"/>
+                        <viewControllerLayoutGuide type="bottom" id="wFj-ey-c0A"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0TN-eE-oeu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="A1Z-E3-qV5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oo8-Fq-7ga" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="942" y="-582"/>
         </scene>
     </scenes>
 </document>
