@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-typedef void(^ZoomAnimationBlock)(UIImageView * animatedSnapshot, UIView * sourceView, UIView * destinationView);
-typedef void(^ZoomCompletionBlock)(UIImageView * animatedSnapshot, UIView * sourceView, UIView * destinationView, void(^completion)(void));
+typedef void(^FVZoomAnimationBlock)(UIImageView * animatedSnapshot, UIView * sourceView, UIView * destinationView);
+typedef void(^FVZoomCompletionBlock)(UIImageView * animatedSnapshot, UIView * sourceView, UIView * destinationView, void(^completion)(void));
 
 @protocol FVZoomTransitionProtocol <NSObject>
 
@@ -23,9 +23,9 @@ typedef void(^ZoomCompletionBlock)(UIImageView * animatedSnapshot, UIView * sour
                           fromViewController:(UIViewController *)fromVC
                             toViewController:(UIViewController *)toVC;
 
--(ZoomAnimationBlock)animationBlockForZoomTransition;
+-(FVZoomAnimationBlock)animationBlockForZoomTransition;
 
--(ZoomCompletionBlock)completionBlockForZoomTransition;;
+-(FVZoomCompletionBlock)completionBlockForZoomTransition;;
 
 -(id<UIViewControllerAnimatedTransitioning>)animationControllerForTransitionToViewController:(UIViewController *)toVC;
 

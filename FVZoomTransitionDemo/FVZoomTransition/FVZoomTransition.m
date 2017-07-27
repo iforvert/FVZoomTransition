@@ -180,7 +180,7 @@
                                   
                                   if ([fromVC respondsToSelector:@selector(animationBlockForZoomTransition)])
                                   {
-                                      ZoomAnimationBlock zoomAnimationBlock = [fromVC animationBlockForZoomTransition];
+                                      FVZoomAnimationBlock zoomAnimationBlock = [fromVC animationBlockForZoomTransition];
                                       if (zoomAnimationBlock)
                                       {
                                           zoomAnimationBlock(animatingImageView, fromZoomView, toZoomView);
@@ -197,7 +197,7 @@
                                   
                                   if ([fromVC respondsToSelector:@selector(completionBlockForZoomTransition)])
                                   {
-                                      ZoomCompletionBlock zoomCompletionBlock = [fromVC completionBlockForZoomTransition];
+                                      FVZoomCompletionBlock zoomCompletionBlock = [fromVC completionBlockForZoomTransition];
                                       if (zoomCompletionBlock)
                                       {
                                           zoomCompletionBlock(animatingImageView, fromZoomView, toZoomView, completion);
