@@ -4,14 +4,9 @@
 
 `FVZoomTransition` provides a new style of push & pop transition.
 
-![效果图1](img/effect1.gif)
-
-
+![effect1](img/effect1.gif) 
 
 ![effect2](img/effect2.gif)
-
-
-
 
 
 ## Basic usage
